@@ -162,12 +162,73 @@ nav h1{
     transition:all 0.4s ease;
 }
 .section-2-items-text p{
-    font-size:1.5rem;
+    font-size:1.3rem;
     line-height:2rem;
     color:#838383;
     transition:all 0.4s ease;
 }
 /* section 2 end */
+/* section 3 start  */
+.section-3-container{
+    width:100%;
+    background-color:#abb8c31f;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:3rem;
+    gap:3rem;
+    transition:all 0.4s ease;
+}
+.section-3-items-picture img{
+    width:30rem;
+    border-radius:1.5rem;
+    transition:all 0.4s ease;
+}
+.section-3-items-text{
+    line-height:6rem;
+    transition:all 0.4s ease;
+}
+.section-3-items-text h1{
+    font-size:4rem;
+    transition:all 0.4s ease;
+}
+.section-3-items-text p{
+    font-size:1.3rem;
+    line-height:2rem;
+    color:#838383;
+    transition:all 0.4s ease;
+}
+/* section 3 end */
+/* section 4 start  */
+.section-4-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:3rem;
+    gap:3rem;
+    transition:all 0.4s ease;
+}
+.section-4-items-picture img{
+    width:30rem;
+    border-radius:1.5rem;
+    transition:all 0.4s ease;
+}
+.section-4-items-text{
+    line-height:6rem;
+    transition:all 0.4s ease;
+}
+.section-4-items-text h1{
+    font-size:4rem;
+    transition:all 0.4s ease;
+}
+.section-4-items-text p{
+    font-size:1.3rem;
+    line-height:2rem;
+    color:#838383;
+    transition:all 0.4s ease;
+}
+/* section 3 end */
 /* responsive tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px){
     .header-first{
@@ -247,6 +308,50 @@ nav h1{
         transition:all 0.4s ease;
     }
     .section-2-items-text p{
+        font-size:1.3rem;
+        line-height:3rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-container{
+        flex-direction:column;
+        gap:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-picture img{
+        width:100%;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-text{
+        line-height:5rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-text h1{
+        font-size:3rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-text p{
+        font-size:1.3rem;
+        line-height:3rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-container{
+        flex-direction:column;
+        gap:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-picture img{
+        width:100%;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-text{
+        line-height:5rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-text h1{
+        font-size:3rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-text p{
         font-size:1.3rem;
         line-height:3rem;
         transition:all 0.4s ease;
@@ -347,6 +452,50 @@ nav h1{
         transition:all 0.4s ease;
     }
     .section-2-items-text p{
+        font-size:.9rem;
+        line-height:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-container{
+        flex-direction:column;
+        gap:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-picture img{
+        width:100%;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-text{
+        line-height:5rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-text h1{
+        font-size:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-3-items-text p{
+        font-size:.9rem;
+        line-height:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-container{
+        flex-direction:column;
+        gap:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-picture img{
+        width:100%;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-text{
+        line-height:5rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-text h1{
+        font-size:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-4-items-text p{
         font-size:.9rem;
         line-height:2rem;
         transition:all 0.4s ease;
