@@ -139,6 +139,35 @@ nav h1{
     transition:all 0.4s ease;
 }
 /* section-1 end */
+/* section 2 start  */
+.section-2-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:3rem;
+    gap:3rem;
+    transition:all 0.4s ease;
+}
+.section-2-items-picture img{
+    width:30rem;
+    border-radius:1.5rem;
+    transition:all 0.4s ease;
+}
+.section-2-items-text{
+    line-height:6rem;
+    transition:all 0.4s ease;
+}
+.section-2-items-text h1{
+    font-size:4rem;
+    transition:all 0.4s ease;
+}
+.section-2-items-text p{
+    font-size:1.5rem;
+    line-height:2rem;
+    color:#838383;
+    transition:all 0.4s ease;
+}
+/* section 2 end */
 /* responsive tablet approach start  */
 @media screen and (min-width: 576px) and (max-width: 992px){
     .header-first{
@@ -198,6 +227,28 @@ nav h1{
     }
     .section-1-items h3{
         line-height:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-container{
+        flex-direction:column;
+        gap:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-picture img{
+        width:100%;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-text{
+        line-height:5rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-text h1{
+        font-size:3rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-text p{
+        font-size:1.3rem;
+        line-height:3rem;
         transition:all 0.4s ease;
     }
 }
@@ -275,6 +326,28 @@ nav h1{
         transition:all 0.4s ease;
     }
     .section-1-items h3{
+        line-height:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-container{
+        flex-direction:column;
+        gap:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-picture img{
+        width:100%;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-text{
+        line-height:5rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-text h1{
+        font-size:2rem;
+        transition:all 0.4s ease;
+    }
+    .section-2-items-text p{
+        font-size:.9rem;
         line-height:2rem;
         transition:all 0.4s ease;
     }
